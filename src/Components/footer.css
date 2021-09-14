@@ -1,0 +1,15 @@
+.footer-sticky{
+    position: relative; 
+    left: 0;
+    bottom: 0;
+     height: 100px;
+    width: 100%;
+    color:#FFFFFF; 
+    background: #06303A;
+    font-size:1.5em;
+    text-align: center !important;
+    line-height:100px;
+    padding-left: 45%;
+    overflow: hidden;
+   
+}

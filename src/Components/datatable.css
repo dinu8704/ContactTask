@@ -1,0 +1,48 @@
+.text-slider-items > span > input{
+    background: transparent;
+    border: none;
+    text-align: center;
+}
+
+.text-slider-items > span > input ::placeholder{
+  color: white;
+}
+
+.bgchange {
+  background-color: #000000ad;
+  padding-top: 59px;
+  text-align: center;
+}
+
+
+/* table center  */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.buttonModal{
+  margin-top: 7px !important;
+  border-radius: 50px !important;
+  margin-right: 10px !important;
+  font-weight: 700 !important;
+}
+/* login and sign up icon  */
+.glyphicon-user:before {
+  content: "\e008";
+  font-size: 17px;
+  color: dodgerblue;
+}
+
+.modal-body{
+  padding: 20px 30px !important;
+}

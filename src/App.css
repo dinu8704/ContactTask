@@ -1,0 +1,121 @@
+.container{
+  min-height: 100vh;
+}
+
+.form-control{
+    border-radius: 0px !important;
+    -webkit-box-shadow: None !important;
+     box-shadow: None !important ;
+     display: block;
+     width: 100%;
+     height: 34px;
+     padding: 6px 12px;
+     font-size: 14px;
+     line-height: 1.42857143;
+     color: #555;
+     background-color: #fff;
+     background-image: none;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+     -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+     transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+/* ================Top Category ============================= */
+.topmin{
+  margin-top: -6%;
+}
+.form-group select {
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: rgb(5, 5, 5)
+}
+.form-group input {
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: rgb(5, 5, 5)
+}
+.form-group input:focus {
+  border-color: rgb(29, 248, 0);
+  border-width: 0 0 2px;
+}
+.form-group select:focus {
+  border-color: rgb(13, 15, 13)
+}
+
+.form-group ::-webkit-input-placeholder { 
+  color:    #292727;
+   opacity: 0.8 ;
+}
+.topinput{
+  padding: 1% 2% 0% 2%;
+}
+/* ==========================bottom categories ================ */
+.purples-sec .form-group ::-webkit-input-placeholder{
+  color:    rgb(255, 255, 255);
+  opacity: 0.8 ;
+}
+.purples-sec{
+  background-color: #AB41FD;
+  padding: 0% 2% 5% 2%;
+  border-radius: 0px 0px 10px 10px;
+}
+.purples-sec .form-control{
+  background-color: #AB41FD;
+}
+.purples-sec .form-group input{
+  border-color: rgb(255 255 255)
+}
+.purples-sec .form-control::-webkit-input-placeholder{
+  color: white;
+}
+.bottom-title{
+  margin-left: 20px;
+  color: white;
+}
+.purples-sec .form-group input:focus {
+  border-color: rgb(29, 248, 0);
+  border-width: 0 0 2px;
+}
+
+/* ======================box shoadow ===================== */
+.Box-shadow-mannual{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  min-height: 200px;
+  width: 60vw;
+  margin: 100px auto;
+  background: white;
+  border-radius: 10px;
+}
+
+.titlename{
+  color: rgb(160,61,236);
+  margin-left: 10px;
+}
+
+#breakline::after{
+  content: "\a";
+  white-space: pre;
+}
+#breakline{
+  text-align: center;
+}
+
+
+
+.submit-btn-change{
+  color: #000;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    padding: 4px 40px 4px 40px;
+    border-radius: 20px;
+}
+.Error-class{
+  color: red;
+}
+
+
+
